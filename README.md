@@ -12,5 +12,5 @@ This trick requires custom domain mappings (ie, you aren't just using the appspo
 ./switch.sh DOMAIN_NAME OLD_PROJECT NEW_PROJECT
 ```
 
-For example, say you've got an app at `widgets.io`.  If the western deployment is down and the eastern is up, switch traffic like so: `./switch.sh widgets.io widget-project-west widget-project-east
+For example, say you've got an app at `widgets.io`.  If the western deployment is down and the eastern is up, switch traffic like so: `./switch.sh widgets.io widget-project-west widget-project-east`
 
