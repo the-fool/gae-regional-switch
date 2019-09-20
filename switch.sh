@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+set -e
 
 if [[ $# -ne 3 ]]; then
   echo "Usage: switch.sh DOMAIN_NAME OLD_PROJECT NEW_PROJECT"
